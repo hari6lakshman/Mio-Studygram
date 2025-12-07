@@ -1,6 +1,6 @@
-import {genkit} from '@genkit-ai/next';
+'use server';
+
+import createApi from '@genkit-ai/next';
 import '@/ai';
-export const {GET, POST} = genkit({
-  plugins: [],
-  root: '/api/genkit',
-});
+
+export const {GET, POST} = createApi();
