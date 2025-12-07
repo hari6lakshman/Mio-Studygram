@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Mio - Your Luxurious Educational Assistant',
+  title: 'Mio - Studygram Ai',
   description: 'AI-powered conversations to master any topic with elegance.',
 };
 
