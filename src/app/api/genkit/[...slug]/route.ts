@@ -1,9 +1,13 @@
-import { genkit } from 'genkit';
-import { googleAI } from '@genkit-ai/google-genai';
+import {genkit} from 'genkit';
 
-const ai = genkit({ plugins: [googleAI()] });
+import {googleAI} from '@genkit-ai/google-genai';
 
-const { text } = await ai.generate({
-    model: googleAI.model('gemini-2.5-flash'),
-    prompt: 'Why is Genkit awesome?'
+export const ai genkit({
+
+plugins: [googleAI()],
+
+model: 'googleai/gemini-2.5-flash',
+
+environment: process.env.NODE_ENV,
+
 });
